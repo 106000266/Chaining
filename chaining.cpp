@@ -346,7 +346,6 @@ class Student{
                         {
                             x=0,y=j;
                             Record[x][y]+=1;
-                            en=1;
                             break;
                         }
                         else if((color[4][j]==inputColor) && ((Max[4][j]-Record[4][j])==1
@@ -354,7 +353,6 @@ class Student{
                         {
                             x=4,y=j;
                             Record[x][y]+=1;
-                            en=1;
                             break;
                         }
                     }
